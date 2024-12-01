@@ -3,8 +3,8 @@ import joblib
 import re
 
 # Load the trained model and vectorizer
-model = joblib.load('F:\\ML A-Z\\Disaster Tweets\\logistic_regression_model.pkl')
-vectorizer = joblib.load('F:\\ML A-Z\Disaster Tweets\\tfidf_vectorizer.pkl')
+model = joblib.load('logistic_regression_model.pkl')
+vectorizer = joblib.load('tfidf_vectorizer.pkl')
 
 # Text preprocessing function
 def clean_text(text):
